@@ -1,4 +1,4 @@
 interface:
-  display_name: "Arabic Content Quality"
-  short_description: "Arabic RTL quality for files and content"
-  default_prompt: "Use $arabic-content-quality to create this Arabic deliverable with correct RTL and clean Unicode."
+  display_name: "Arabic RTL Fixer AI Skill"
+  short_description: "An AI skill for fixing Arabic RTL, BiDi, and mixed Arabic-English content in documents — Word (DOCX), PowerPoint (PPTX), and other formatted files."
+  default_prompt: "Use $arabic-rtl-fixer-ai-skill to create this Arabic deliverable with correct RTL and clean Unicode."
