@@ -1,5 +1,5 @@
 ---
-name: arabic-content-quality
+name: arabic-rtl-fixer-ai-skill
 description: Create, edit, repair, and validate Arabic or Arabic-English content with clean logical-order Unicode, correct RTL semantics, mixed-language handling, Arabic-capable typography, and format-specific QA. Use for presentations, Word documents, PDFs, web pages, spreadsheets, images with text, and reusable Arabic copy. For PPTX work, use together with the Presentations skill.
 ---
 
