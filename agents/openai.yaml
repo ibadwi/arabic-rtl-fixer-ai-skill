@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arabic Content Quality"
+  short_description: "Arabic RTL quality for files and content"
+  default_prompt: "Use $arabic-content-quality to create this Arabic deliverable with correct RTL and clean Unicode."
