@@ -5,6 +5,13 @@
 
 An AI skill for creating, repairing, and validating Arabic and Arabic-English content with native right-to-left direction, clean logical-order Unicode, correct BiDi behavior, Arabic language metadata, editable lists, and Arabic-capable typography.
 
+## Before and after
+
+This example shows how the skill repairs Arabic RTL and mixed Arabic-English text while preserving the intended reading order.
+
+<img width="1860" height="3104" alt="Before and after comparison of repaired Arabic RTL and mixed Arabic-English text" src="https://github.com/user-attachments/assets/f2b76331-e99b-4e48-8808-c786ad6765b1" />
+
+
 ## Install
 
 ```bash
