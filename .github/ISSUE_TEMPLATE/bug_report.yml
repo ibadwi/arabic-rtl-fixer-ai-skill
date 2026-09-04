@@ -1,0 +1,39 @@
+name: Arabic document bug
+description: Report an incorrect audit, repair, or RTL result
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach confidential documents or personal data. Prefer a minimal synthetic reproduction."
+  - type: dropdown
+    id: format
+    attributes:
+      label: File format
+      options: [PPTX, DOCX, PDF, Web/UI, Spreadsheet, Image, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command or prompt
+      description: Remove private paths and data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized output
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Application and version
+      placeholder: "Microsoft PowerPoint 365 on macOS"

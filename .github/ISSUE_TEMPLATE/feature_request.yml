@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest a focused Arabic RTL capability
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Explain the real document workflow or compatibility problem.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired observable outcome
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Synthetic sample
+      description: Do not include confidential content or personal data.
