@@ -1,4 +1,4 @@
 interface:
-  display_name: "Arabic RTL Fixer AI Skill"
-  short_description: "An AI skill for fixing Arabic RTL, BiDi, and mixed Arabic-English content in documents — Word (DOCX), PowerPoint (PPTX), and other formatted files."
-  default_prompt: "Use $arabic-rtl-fixer-ai-skill to create this Arabic deliverable with correct RTL and clean Unicode."
+  display_name: "Arabic RTL Fixer"
+  short_description: "Repair Arabic RTL, BiDi, and mixed-language documents."
+  default_prompt: "Use $arabic-rtl-fixer-ai-skill to repair and validate this Arabic or bilingual file, preserve its content and design, and report structural and visual QA separately."
